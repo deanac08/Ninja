@@ -7,11 +7,14 @@ class Ninja {
     }
 
     sayName(){
-        console.log(this.name);
+        console.log('My name is ${this.name}');
     }
 
     showStats(){
-        console.log(this.name, this.strength, this.speed, this.health);
+        console.log('Name: ${this.name}');
+        console.log('Strength: ${this.strength}');
+        console.log('Speed: ${this.speed}');
+        console.log('Health: ${this.health}');
     }
 
     drinkSake(){
